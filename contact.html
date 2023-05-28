@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us - Example Travel Agency</title>
+  <style>
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      
+      
+  background-image: url('contact.jpg');
+  background-repeat: no-repeat;
+  background-size: 1500px 700px;
+   
+    }
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input,
+    textarea {
+      width: 50%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    textarea {
+      height: 150px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Destinations</a></li>
+      
+      <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+  <h1>Contact Us</h1>
+  <!--<p>We would love to hear from you! Whether you have a question, need assistance, or want to book your dream vacation, our team is here to help.</p>-->
+  
+  <center><form action="" method="post">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea><br>
+    
+    <button type="submit">Submit</button>
+  </form></center>
+</body>
+</html>

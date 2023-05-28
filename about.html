@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>Section links</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		body {
+			width: 100vw;
+			height: 100vh;
+		}
+		nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+    }
+		
+		.section {
+			width: 40vw;
+			height: 40vh;
+			
+			background-color: white;
+			font-size: 20px;
+			color: black;
+			text-align: center;
+			
+			text-align:inline-block;
+			
+			margin: 10px 5px;
+		}
+		
+		
+		.one,
+		.three {
+			background-color: white;
+		}
+		
+		.nav {
+			width: 100vw;
+			height: 100vh;
+			background-color: #3944F7;
+			font-size: x-large;
+			color: white;
+			text-align: center;
+			margin: 10px 5px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			place-items: center;
+			background-image: url('about.jpg');
+			background-size:500px 700px;
+		}
+		
+		.btn {
+			color: black;
+			
+			height: 70px;
+			width: 120px;
+			padding: 2px;
+			text-align: center;
+			
+		}
+		
+	</style>
+</head>
+
+<body>
+	<nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Destinations</a></li>
+          
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+	<div class="nav">
+		<a href="#section1" class="btn">About us</a>
+		<a href="#section2" class="btn">Our mission</a>
+		<a href="#section3" class="btn">Our team</a>
+		<a href="#section4" class="btn">contact information</a>
+	</div>
+	<div class="sec">
+	<center><div class="section one" id="section1">
+	<h2>ABOUT US</h2>
+	<p>Welcome to our travel agency! We are passionate about creating memorable travel experiences for our customers. Whether you're planning a relaxing beach getaway, an adventurous hiking trip, or a cultural exploration, we've got you covered.</p>	
+	</div></center>
+	<center><div class="section two" id="section2">
+		<h2>OUR MISSION</h2>
+	<p>At our travel agency, our mission is to provide exceptional service and personalized travel experiences to every client. We strive to understand your unique preferences and tailor our recommendations to create your dream vacation.</p>
+	</div></center>
+	<center><div class="section three" id="section3">
+		<h2>OUR TEAM</h2>
+	<p>We have a team of experienced travel experts who are dedicated to making your travel dreams a reality. Our knowledgeable staff will assist you in every step of the planning process, from selecting the perfect destination to booking accommodations and activities.</p>
+	</div></center>
+	<center><div class="section four" id="section4">
+		<h2>CONTACT</h2>
+		<p>If you have any questions, feedback, or would like to book a trip, please don't hesitate to contact us. We're here to help!</p>
+		<p>Email: <a href="mailto:info@travelagency.com">info@travelagency.com</a></p>
+		<p>Phone: <a href="tel:+11234567890">+1 123-456-7890</a></p>	
+	</div></center></div>
+</body>
+
+</html>
